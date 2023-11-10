@@ -1,0 +1,26 @@
+
+
+.grid {
+  display: grid;
+  place-content: center;
+  grid-template-columns: repeat(3, 350px);
+  grid-auto-columns: repeat(3, 350px);
+  gap: 20px;
+  
+  }
+
+  .searchbar {
+    background-color: white;
+    letter-spacing: 1px;
+    padding: 12px;
+    border: solid white;
+    border-radius: 25px;
+    font-size: 18px;
+    font-weight:600;
+    font-family: 'Lato';
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 33%;
+
+  
+}

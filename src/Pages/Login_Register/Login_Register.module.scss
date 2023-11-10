@@ -1,0 +1,33 @@
+.formulaire {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px; /* Adjust the margin-top as needed */
+  
+    input {
+      background-color: white;
+      letter-spacing: 1px;
+      padding: 12px;
+      border: solid white;
+      transition: 0.25s;
+      border-radius: 25px;
+      font-size: 18px;
+      font-weight: 600;
+      margin-top: 15px; /* Adjust the margin-top between inputs */
+      margin-bottom: 15px; /* Adjust the margin-bottom between inputs */
+      width: 500px; /* Adjust the width of the inputs */
+
+      cursor: pointer;
+      font-family: 'Lato';
+      color: #4b300d;
+    }
+  
+    p {
+      color: red; /* Adjust the color of error messages */
+      margin-top: 5px; /* Adjust the margin-top of error messages */
+    flex-direction: row
+    }
+  
+  }
+  

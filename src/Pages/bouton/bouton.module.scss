@@ -1,0 +1,21 @@
+button {
+    background-color: white;
+    letter-spacing: 1px;
+    padding: 12px;
+    border: solid hsl(34, 70%, 17%);
+    transition:0.25s;
+    border-radius: 25px;
+    font-size: 18px;
+    font-weight:600;
+
+    cursor: pointer;
+    font-family: 'Lato';
+
+    color : #4B300d;
+
+    &:hover {
+        background-color : #4B300d;
+        color: white;
+        
+    }
+}
