@@ -18,16 +18,30 @@
       margin-bottom: 15px; /* Adjust the margin-bottom between inputs */
       width: 500px; /* Adjust the width of the inputs */
 
-      cursor: pointer;
+
       font-family: 'Lato';
       color: #4b300d;
+
+      #cgu {
+        width: 10px;
+      }
     }
   
     p {
-      color: red; /* Adjust the color of error messages */
-      margin-top: 5px; /* Adjust the margin-top of error messages */
-    flex-direction: row
+      color: red; 
+      margin-top: 10px; 
+
     }
+
   
-  }
   
+      .cguCheckbox {
+        width: 50px;
+        height: 15px;
+        align-items: center;
+      }
+    }
+
+
+  
+

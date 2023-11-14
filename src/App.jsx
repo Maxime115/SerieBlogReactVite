@@ -1,5 +1,6 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { lazy } from 'react';
+import { Suspense } from "react";
 import './App.css'
 
 
@@ -41,8 +42,10 @@ function App() {
 
   return (
     <>
+    <Suspense fallback={<div>Loading...</div>}>
       {/* Nous retourons la const router dans un RouterProvider afin de pouvoir utiliser les routes */}
       <RouterProvider router={router}/>
+    </Suspense>
     </>
   )
 }
